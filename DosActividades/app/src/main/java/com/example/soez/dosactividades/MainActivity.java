@@ -1,9 +1,11 @@
 package com.example.soez.dosactividades;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.util.Log;
@@ -13,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button botonPrincipal;
     private TextView textoResultado;
+    int idBotonPrincipal = 3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -27,9 +30,11 @@ public class MainActivity extends AppCompatActivity {
         botonPrincipal.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Log.d("Vicente.DosActividades","Boton principal pulsado");
-                
+
             }
         });
+
+
     }
 
 
