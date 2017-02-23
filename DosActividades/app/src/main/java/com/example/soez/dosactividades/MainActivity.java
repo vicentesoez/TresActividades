@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button botonPrincipal;
     private TextView textoResultado;
     int idBotonPrincipal = 3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -30,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
         botonPrincipal.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Log.d("Vicente.DosActividades","Boton principal pulsado");
-
+                Intent intencion = new Intent(MainActivity.this, Main2Activity.class);
+                intencion.putExtra("VengoDe","MainActivity");
+                MainActivity.super.startActivityForResult(intencion, idBotonPrincipal);
             }
         });
 

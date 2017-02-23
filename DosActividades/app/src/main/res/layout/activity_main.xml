@@ -24,5 +24,6 @@
         android:layout_below="@+id/botonPrincipal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:id="@+id/MuestraResultado" />
+        android:id="@+id/MuestraResultado"
+        android:textSize="25sp" />
 </RelativeLayout>
