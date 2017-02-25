@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button botonPrincipal;
     private TextView textoResultado;
     int idBotonPrincipal = 3;
+    private int respuesta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,5 +41,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    protected void onActivityResult(int requestCode, int resultCode, Intent intentRespuesta) {
+// si acaba la "otra" actividad
+        if (requestCode == idBotonPrincipal) {
+            respuesta = intentRespuesta.getExtras().getInt("Valor");
+            this.textoResultado.setText("Resultado = " + respuesta);
+        }
 
+
+    }
 }
