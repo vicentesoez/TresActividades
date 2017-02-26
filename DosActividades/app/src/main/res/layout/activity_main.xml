@@ -26,4 +26,13 @@
         android:layout_marginTop="36dp"
         android:id="@+id/MuestraResultado"
         android:textSize="25sp" />
+
+    <Button
+        android:text="SHARE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MuestraResultado"
+        android:layout_alignEnd="@+id/botonPrincipal"
+        android:layout_marginTop="39dp"
+        android:id="@+id/botonCompartir" />
 </RelativeLayout>

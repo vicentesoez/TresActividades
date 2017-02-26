@@ -13,7 +13,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button botonPrincipal;
+    private Button botonPrincipal, botonCompartir;
     private TextView textoResultado;
     int idBotonPrincipal = 3;
     private int respuesta;
@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        botonCompartir = (Button) findViewById(R.id.botonCompartir);
+        botonCompartir.setVisibility(View.INVISIBLE);
         botonPrincipal = (Button) findViewById(R.id.botonPrincipal);
         textoResultado = (TextView) findViewById(R.id.MuestraResultado);
 
@@ -44,8 +46,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent intentRespuesta) {
 // si acaba la "otra" actividad
         if (requestCode == idBotonPrincipal) {
+            Log.d("Vicente.DosActividades","Vuelta de la actividad 2");
+
+            botonCompartir.setVisibility(View.VISIBLE);
             respuesta = intentRespuesta.getExtras().getInt("Valor");
             this.textoResultado.setText("Resultado = " + respuesta);
+
+            botonCompartir.setOnClickListener(new View.OnClickListener(){
+                public void onClick(View y){
+                    Log.d("Vicente.DosActividades","Boton compartir pulsado");
+
+                    Intent sendIntent = new Intent();
+                    sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "He hecho una suma que ha dado " + respuesta);
+                    sendIntent.setType("text/plain");
+                    startActivity(sendIntent);
+
+                }
+            });
+
+
         }
 
 
