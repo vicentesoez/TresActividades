@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TresActividades</string>
+    <color name="red">#ffe3e3</color>
+    <color name="orange">#fff1e5</color>
+    <color name="yellow">#fffddc</color>
+
 </resources>
+

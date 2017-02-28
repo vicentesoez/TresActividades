@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e628e6c-63b9-4fdf-b85e-0ae2bcac4395" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/.idea/runConfigurations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/androidTest/java/com/example/soez/dosactividades/ExampleInstrumentedTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/java/com/example/soez/dosactividades/Main2Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/java/com/example/soez/dosactividades/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/layout/activity_main2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/app/src/test/java/com/example/soez/dosactividades/ExampleUnitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DosActividades/settings.gradle" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/Main2Activity.java" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/Main2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/Main3Activity.java" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/Main3Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/MainActivity.java" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/java/com/example/soez/tresactividades/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main3.xml" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/res/layout/activity_main3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TresActividades/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TresActividades/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="2017_02_28_TresActividades.iws" />
     <ignored path=".idea/workspace.xml" />

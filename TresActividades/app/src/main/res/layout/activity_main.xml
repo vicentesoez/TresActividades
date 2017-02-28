@@ -8,6 +8,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/yellow"
     tools:context="com.example.soez.tresactividades.MainActivity">
 
+    <TextView
+        android:text="BIENVENIDO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:id="@+id/textView2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Pulsa el boton menú posicionado arriba a la derecha para comenzar y elige una opción"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
 </RelativeLayout>
+
