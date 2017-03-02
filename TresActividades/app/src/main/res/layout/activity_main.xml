@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/yellow"
+    android:background="@drawable/background"
     tools:context="com.example.soez.tresactividades.MainActivity">
 
     <TextView
@@ -19,7 +19,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="141dp"
         android:id="@+id/textView2"
-        android:textSize="25sp" />
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:fontFamily="sans-serif" />
 
     <TextView
         android:text="Pulsa el boton menú posicionado arriba a la derecha para comenzar y elige una opción"
@@ -31,6 +33,8 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="?attr/colorSwitchThumbNormal"
+        android:textStyle="normal|italic" />
 </RelativeLayout>
 

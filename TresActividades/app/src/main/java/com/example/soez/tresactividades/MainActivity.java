@@ -1,16 +1,22 @@
 package com.example.soez.tresactividades;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import static com.example.soez.tresactividades.R.id.textView;
 
 public class MainActivity extends AppCompatActivity {
 
     private int MenuPrincipal,MenuPregunta,MenuImagen;
+    private TextView bienvenido;
+    private Typeface tf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         MenuPrincipal=1;
         MenuPregunta=2;
         MenuImagen=3;
+
+        bienvenido= (TextView) findViewById(R.id.textView2);
+        Typeface tf = Typeface.createFromAsset(this.getAssets(),"fonts/BEBAS___.TTF");
+        bienvenido.setTypeface(tf);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

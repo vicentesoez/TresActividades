@@ -1,0 +1,7 @@
+1.- Crear tres actividades y con un menú dirigirse a cada uno de ellos
+2.- En MainActivity presentar la actividad
+3.- En Main2Activity mostrar varias opciones
+4.- Cuando selecciones una, que salga una ventana preguntándote por si estás seguro de coger esa
+5.- En Main3Activity poner un boton de SUBIR que te deje seleccionar una imagen y sacar en un Toast el nombre de la misma.
+6.- Mostrar la imagen en la pantalla
+7.- Compartir imagen
