@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main3"
     android:layout_width="match_parent"
@@ -9,6 +10,39 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/background3"
-    tools:context="com.example.soez.tresactividades.Main3Activity">
+    tools:context="com.example.soez.tresactividades.Main3Activity"
+    android:onClick="onClick">
+
+    <TextView
+        android:text="SUBIR IMAGEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subeimagen"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Pulsa en cualquier parte de la pantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pulsa"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:textColor="?attr/colorSwitchThumbNormal"
+        android:textAlignment="center"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/subeimagen"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_upload"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
